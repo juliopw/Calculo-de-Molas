@@ -1,0 +1,421 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		D87898F21B0A670800DEDDE8 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D87898F11B0A670800DEDDE8 /* AppDelegate.swift */; };
+		D87898F41B0A670800DEDDE8 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D87898F31B0A670800DEDDE8 /* Images.xcassets */; };
+		D87898F71B0A670800DEDDE8 /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = D87898F51B0A670800DEDDE8 /* MainMenu.xib */; };
+		D87899031B0A670800DEDDE8 /* MolasTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D87899021B0A670800DEDDE8 /* MolasTests.swift */; };
+		D88509C61B0D1DDF0099315C /* Materiais.plist in Resources */ = {isa = PBXBuildFile; fileRef = D88509C51B0D1DDF0099315C /* Materiais.plist */; };
+		D8B8042E1B12F52A0077333A /* Fixacao.plist in Resources */ = {isa = PBXBuildFile; fileRef = D8B8042D1B12F52A0077333A /* Fixacao.plist */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		D87898FD1B0A670800DEDDE8 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D87898E41B0A670800DEDDE8 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D87898EB1B0A670800DEDDE8;
+			remoteInfo = Molas;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		D87898EC1B0A670800DEDDE8 /* Molas.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Molas.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		D87898F01B0A670800DEDDE8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D87898F11B0A670800DEDDE8 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		D87898F31B0A670800DEDDE8 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		D87898F61B0A670800DEDDE8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/MainMenu.xib; sourceTree = "<group>"; };
+		D87898FC1B0A670800DEDDE8 /* MolasTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MolasTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		D87899011B0A670800DEDDE8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D87899021B0A670800DEDDE8 /* MolasTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MolasTests.swift; sourceTree = "<group>"; };
+		D88509C51B0D1DDF0099315C /* Materiais.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = Materiais.plist; path = ../Materiais.plist; sourceTree = "<group>"; };
+		D8B8042D1B12F52A0077333A /* Fixacao.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Fixacao.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		D87898E91B0A670800DEDDE8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D87898F91B0A670800DEDDE8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		D87898E31B0A670800DEDDE8 = {
+			isa = PBXGroup;
+			children = (
+				D87898EE1B0A670800DEDDE8 /* Molas */,
+				D87898FF1B0A670800DEDDE8 /* MolasTests */,
+				D87898ED1B0A670800DEDDE8 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		D87898ED1B0A670800DEDDE8 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				D87898EC1B0A670800DEDDE8 /* Molas.app */,
+				D87898FC1B0A670800DEDDE8 /* MolasTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		D87898EE1B0A670800DEDDE8 /* Molas */ = {
+			isa = PBXGroup;
+			children = (
+				D87898F11B0A670800DEDDE8 /* AppDelegate.swift */,
+				D87898F31B0A670800DEDDE8 /* Images.xcassets */,
+				D87898F51B0A670800DEDDE8 /* MainMenu.xib */,
+				D87898EF1B0A670800DEDDE8 /* Supporting Files */,
+			);
+			path = Molas;
+			sourceTree = "<group>";
+		};
+		D87898EF1B0A670800DEDDE8 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				D88509C51B0D1DDF0099315C /* Materiais.plist */,
+				D8B8042D1B12F52A0077333A /* Fixacao.plist */,
+				D87898F01B0A670800DEDDE8 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		D87898FF1B0A670800DEDDE8 /* MolasTests */ = {
+			isa = PBXGroup;
+			children = (
+				D87899021B0A670800DEDDE8 /* MolasTests.swift */,
+				D87899001B0A670800DEDDE8 /* Supporting Files */,
+			);
+			path = MolasTests;
+			sourceTree = "<group>";
+		};
+		D87899001B0A670800DEDDE8 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				D87899011B0A670800DEDDE8 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		D87898EB1B0A670800DEDDE8 /* Molas */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D87899061B0A670800DEDDE8 /* Build configuration list for PBXNativeTarget "Molas" */;
+			buildPhases = (
+				D87898E81B0A670800DEDDE8 /* Sources */,
+				D87898E91B0A670800DEDDE8 /* Frameworks */,
+				D87898EA1B0A670800DEDDE8 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Molas;
+			productName = Molas;
+			productReference = D87898EC1B0A670800DEDDE8 /* Molas.app */;
+			productType = "com.apple.product-type.application";
+		};
+		D87898FB1B0A670800DEDDE8 /* MolasTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D87899091B0A670800DEDDE8 /* Build configuration list for PBXNativeTarget "MolasTests" */;
+			buildPhases = (
+				D87898F81B0A670800DEDDE8 /* Sources */,
+				D87898F91B0A670800DEDDE8 /* Frameworks */,
+				D87898FA1B0A670800DEDDE8 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D87898FE1B0A670800DEDDE8 /* PBXTargetDependency */,
+			);
+			name = MolasTests;
+			productName = MolasTests;
+			productReference = D87898FC1B0A670800DEDDE8 /* MolasTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D87898E41B0A670800DEDDE8 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0630;
+				ORGANIZATIONNAME = EMaq;
+				TargetAttributes = {
+					D87898EB1B0A670800DEDDE8 = {
+						CreatedOnToolsVersion = 6.3.1;
+					};
+					D87898FB1B0A670800DEDDE8 = {
+						CreatedOnToolsVersion = 6.3.1;
+						TestTargetID = D87898EB1B0A670800DEDDE8;
+					};
+				};
+			};
+			buildConfigurationList = D87898E71B0A670800DEDDE8 /* Build configuration list for PBXProject "Molas" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = D87898E31B0A670800DEDDE8;
+			productRefGroup = D87898ED1B0A670800DEDDE8 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				D87898EB1B0A670800DEDDE8 /* Molas */,
+				D87898FB1B0A670800DEDDE8 /* MolasTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		D87898EA1B0A670800DEDDE8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D88509C61B0D1DDF0099315C /* Materiais.plist in Resources */,
+				D87898F41B0A670800DEDDE8 /* Images.xcassets in Resources */,
+				D87898F71B0A670800DEDDE8 /* MainMenu.xib in Resources */,
+				D8B8042E1B12F52A0077333A /* Fixacao.plist in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D87898FA1B0A670800DEDDE8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		D87898E81B0A670800DEDDE8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D87898F21B0A670800DEDDE8 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D87898F81B0A670800DEDDE8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D87899031B0A670800DEDDE8 /* MolasTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		D87898FE1B0A670800DEDDE8 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D87898EB1B0A670800DEDDE8 /* Molas */;
+			targetProxy = D87898FD1B0A670800DEDDE8 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		D87898F51B0A670800DEDDE8 /* MainMenu.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D87898F61B0A670800DEDDE8 /* Base */,
+			);
+			name = MainMenu.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		D87899041B0A670800DEDDE8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		D87899051B0A670800DEDDE8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		D87899071B0A670800DEDDE8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = Molas/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		D87899081B0A670800DEDDE8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = Molas/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		D878990A1B0A670800DEDDE8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				COMBINE_HIDPI_IMAGES = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = MolasTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Molas.app/Contents/MacOS/Molas";
+			};
+			name = Debug;
+		};
+		D878990B1B0A670800DEDDE8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				COMBINE_HIDPI_IMAGES = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = MolasTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Molas.app/Contents/MacOS/Molas";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		D87898E71B0A670800DEDDE8 /* Build configuration list for PBXProject "Molas" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D87899041B0A670800DEDDE8 /* Debug */,
+				D87899051B0A670800DEDDE8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D87899061B0A670800DEDDE8 /* Build configuration list for PBXNativeTarget "Molas" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D87899071B0A670800DEDDE8 /* Debug */,
+				D87899081B0A670800DEDDE8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D87899091B0A670800DEDDE8 /* Build configuration list for PBXNativeTarget "MolasTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D878990A1B0A670800DEDDE8 /* Debug */,
+				D878990B1B0A670800DEDDE8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D87898E41B0A670800DEDDE8 /* Project object */;
+}

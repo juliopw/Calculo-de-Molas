@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>Modulo Elasticidade</key>
+	<dict>
+		<key>A228 - Fio musical</key>
+		<integer>200</integer>
+		<key>A227 - Fio duro estirado</key>
+		<real>197.2</real>
+		<key>A231 - Cromo-vanádio</key>
+		<real>203.4</real>
+		<key>A401 - Cromo-silício</key>
+		<real>203.4</real>
+	</dict>
+	<key>Modulo Rigidez</key>
+	<dict>
+		<key>A228 - Fio musical</key>
+		<real>80.7</real>
+		<key>A227 - Fio duro estirado</key>
+		<real>79.3</real>
+		<key>A231 - Cromo-vanádio</key>
+		<real>77.2</real>
+		<key>A401 - Cromo-silício</key>
+		<real>77.2</real>
+	</dict>
+	<key>Custo Relativo</key>
+	<dict>
+		<key>A228 - Fio musical</key>
+		<real>2.6</real>
+		<key>A227 - Fio duro estirado</key>
+		<integer>1</integer>
+		<key>A231 - Cromo-vanádio</key>
+		<real>3.1</real>
+		<key>A401 - Cromo-silício</key>
+		<integer>4</integer>
+	</dict>
+</dict>
+</plist>

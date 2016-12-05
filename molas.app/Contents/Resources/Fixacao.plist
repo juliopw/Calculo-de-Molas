@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>Valor de alfa</key>
+	<dict>
+		<key>Extremidades Fixas</key>
+		<real>0.5</real>
+		<key>Uma extremidade fixa e outra pivotada</key>
+		<real>0.707</real>
+		<key>Ambas as extremidades pivotadas</key>
+		<integer>1</integer>
+		<key>Uma extremidade engastada e outra livre</key>
+		<integer>2</integer>
+	</dict>
+</dict>
+</plist>
